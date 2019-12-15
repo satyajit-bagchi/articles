@@ -4,7 +4,7 @@ I wanted to share something I recently found to be possible and just a really co
 
 After failing twice, I finally got this thing to work, and I felt sharing this would be a lot of help to a lot of students, hobbyists and lab inhabitants out there.
 
-In all honesty, I didn't do much. But when trying to do this, I had to go through a lot of unupdated information and discouraging comments and forum posts mentioning that this doesn't work anymore. And after getting this to work, I felt publishing this would be a value addition to any hackers out there.
+To be frank, I didn't do much. But when trying to do this, I had to go through a lot of unupdated information and discouraging comments and forum posts mentioning that this doesn't work anymore. And after getting this to work after failing twice or thrice, I felt publishing this would be a value addition to any hackers out there.
 
 ## Prerequisites
 
@@ -68,7 +68,8 @@ Data echo:
 - Maybe you're playing around with Visual SLAM, or Sensor fusion or ROS and you just need some sensor data to play with.
 
 So, yeah, that's about it. Happy hacking.
-References:
+
+## References:
 
 \[1\]: http://wiki.ros.org/android_all_sensors_driver
 
