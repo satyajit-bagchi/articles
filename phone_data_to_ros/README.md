@@ -1,4 +1,4 @@
-# Using your smartphone as a sensor for playing around in ROS
+# Using your smartphone as a sensor suite for playing around in ROS
 
 I wanted to share something I recently found to be possible and just a really cool tool to know about. Thats to make your smartphone publish its sensor data as ros nodes.
 
