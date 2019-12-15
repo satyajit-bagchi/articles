@@ -6,6 +6,11 @@ After failing twice, I finally got this thing to work, and I felt sharing this w
 
 In all honesty, I didn't do much. But when trying to do this, I had to go through a lot of unupdated information and discouraging comments mentioning that this doesn't work anymore. And after getting this to work, I felt publishing this would be a value addition.
 
+## Prerequisites
+
+1. Working [ROS](https://www.ros.org/) distribution, preferably on Linux
+2. An Android smartphone 
+
 ## Tutorial
 
 ### Download the app off the app store:
