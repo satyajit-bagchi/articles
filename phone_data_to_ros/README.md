@@ -79,10 +79,8 @@ So, yeah, that's about it. Happy hacking.
 
 ## References:
 
-\[1\]: http://wiki.ros.org/android_all_sensors_driver
+\[1\]: Running a roscore on an Android smartphone https://wiki.epfl.ch/roscontrol/roscore-android-smartphone
 
-\[2\]: Running a roscore on an Android smartphone https://wiki.epfl.ch/roscontrol/roscore-android-smartphone
+\[2\]: Android sensors driver https://play.google.com/store/apps/details?id=org.ros.android.sensors_driver
 
-\[3\]: Android sensors driver https://play.google.com/store/apps/details?id=org.ros.android.sensors_driver
-
-\[4\]: Android all sensors driver https://play.google.com/store/apps/details?id=org.ros.android.android_all_sensors_driver
+\[3\]: Android all sensors driver https://play.google.com/store/apps/details?id=org.ros.android.android_all_sensors_driver
