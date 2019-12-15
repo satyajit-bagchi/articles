@@ -13,7 +13,7 @@ To be frank, I didn't do much. But when trying to do this, I had to go through a
 
 ## Tutorial
 
-### Download the app off the app store:
+### Download the sensor driver app:
 
 1. The [ROS sensors driver](https://play.google.com/store/apps/details?id=org.ros.android.sensors_driver) allows you to use most of your sensors. \[3\]
 
