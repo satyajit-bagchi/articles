@@ -2,9 +2,9 @@
 
 I wanted to share something I recently found to be possible and just a really cool tool to know about. Thats to make your smartphone publish their sensor data as a ros nodes.
 
-After failing twice, I finally got this thing to work, and I felt sharing this would be a lot of help to a lot of students/hobbyists/lab rats out there.
+After failing twice, I finally got this thing to work, and I felt sharing this would be a lot of help to a lot of students, hobbyists and lab inhabitants out there.
 
-In all honesty, I didn't do much. But aggregating seemingly old information, and reminding people that this works, I felt was still a value addition.
+In all honesty, I didn't do much. But aggregating old information and reminding people that this works, I felt is still a value addition.
 
 ## Tutorial
 
@@ -27,6 +27,8 @@ Connect to the local hotspot, then open a terminal and find your local ip addres
 
 This is usually found via the `ifconfig` command on Linux, and `ipconfig` command on Windows. It should usually start with 192.*
 
+![echo](assets/ifconfig.png)
+
 ### Run the android app
 
 Run the android app, and enter your `ip_address:ros_master_uri`.
@@ -36,11 +38,13 @@ It's usually set to 11311 by default.
 Screenshot
 
 ## Use cases:
-Maybe you're playing around with computer vision algorithms, without a working webcam or you want to have your camera moving rather than moving the objects in front of the webcam, whatever floats your boat haha. If you need a camera, you have (I'm guessing), a pretty great one in your pocket.
 
-Maybe you have an inference network running as a node, and then you can overlay your object detections on top of that.
+- Maybe you're playing around with computer vision algorithms without a working webcam or you want to have your camera moving rather than moving the objects in front of the camera, whatever floats your boat. 
+    - If you need a camera, you have (I'm guessing), a pretty great one in your pocket, or lying in a drawer somewhere.
 
-Maybe you're playing around with Visual SLAM, or Sensor fusion or ROS and you just need some sensor data to play with.
+- Maybe you have an inference network running as a node, and then you can overlay your object detections on top of that.
+
+- Maybe you're playing around with Visual SLAM, or Sensor fusion or ROS and you just need some sensor data to play with.
 
 So, yeah, that's about it.
 
@@ -48,9 +52,19 @@ The world is your stinky awesome oyster.  Go build stuff.
 
 ## Screenshots:
 
-### Hello world!
+### Imu data echo
+
+`rostopic echo /phone1/android/imu`
+Data echo:
+![echo](assets/imu_echo.png)
 
 ### Sensor orientation
+
+![orientation](assets/imu_orientation.png)
+
+### Camera stream
+
+![camera_stream](assets/camera_image_1.png)
 
 References:
 
