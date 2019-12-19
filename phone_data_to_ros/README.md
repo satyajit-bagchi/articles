@@ -1,10 +1,12 @@
 # Using your smartphone as a sensor suite for playing around in ROS
 
-I wanted to share something I recently found to be possible and just a really cool tool to know about. Thats to make your smartphone publish its sensor data as ros nodes.
+After seeing all these cool developments and results coming out in the  Autonomous driving space - Computer vision/Sensor fusion/Object tracking space, I wanted to play around with some of these algorithms, and hopefully recreate some of the results. But I don't have an autonomous car lying around my apartment (yet), and doing object tracking with a webcam is to be honest, kind of lame. So...I started to look around for alternatives.
 
-After failing twice, I finally got this thing to work, and I felt sharing this would be a lot of help to a lot of students, hobbyists and lab inhabitants out there.
+I wanted to share something really cool I recently found to be possible: Making your smartphone publish its sensor data as ROS nodes.
 
-To be frank, I didn't do much. But when trying to do this, I had to go through a lot of unupdated information and discouraging comments and forum posts mentioning that this doesn't work anymore. And after getting this to work after failing twice or thrice, I felt publishing this would be a value addition to any hackers out there.
+After failing twice, I finally got this thing to work and to be frank, I didn't do much. I just went through a bunch of outdated information, discouraging comments, forum posts, and a couple of unsuccessful attempts. Easy.
+
+I am sharing this information with the hope that this might be of help to any fellow hackers, students, hobbyists, or lab inhabitants out there.
 
 ## Prerequisites
 
@@ -22,16 +24,16 @@ To be frank, I didn't do much. But when trying to do this, I had to go through a
 
 ### Create a local hotspot from your phone
 
-Now, here's the caveat: You want to create a local network or hotspot with your phone, rather than share your network via a router.
+**Now, here's the caveat**: You want to create a local network or hotspot with your phone, rather than share your network via a router.
 
 This is usually under the tethering/hotspot option on Android phones.
 
 
 ### Find your local ip address
 
-Connect to the local hotspot, then open a terminal and find your local ip address.
+Connect to your phone's hotspot, then open a terminal on your computer and find your local ip address.
 
-This is usually found via the `ifconfig` command on Linux, and `ipconfig` command on Windows. It should usually start with 192.*
+This is usually found via the `ifconfig` command on Linux (and Unix), and `ipconfig` command on Windows. It should usually start with 192.*
 
 ![echo](assets/ifconfig.png)
 
@@ -66,12 +68,20 @@ To view the camera message stream, use the command:
 
 ![camera_stream](assets/camera_image_1.png)
 
+### Sensors you can use:
+
+- Accelerometer(Part of the Imu message)
+- Gyroscope(Part of the Imu message)
+- Camera stream (Most useful in my opinion)
+- Illumination sensor
+- GPS(Topic published but no messages)
+
 ## Use cases:
 
 - Maybe you're playing around with computer vision algorithms without a working webcam or you want to have your camera moving rather than moving the objects in front of the camera, whatever floats your boat. 
-    - If you need a camera, you have (I'm guessing), a pretty great one in your pocket, or lying in a drawer somewhere.
+    - Basicaly, If you need a camera, I'm guessing you have a pretty great one in your pocket, or lying in a drawer somewhere.
 
-- Maybe you have an inference network running as a node, and then you can overlay your object detections on top of that.
+- Maybe you have an object detection inference network running as a node, and you want to (because now you can) overlay your object detections on top of that.
 
 - Maybe you're playing around with Visual SLAM, or Sensor fusion or ROS and you just need some sensor data to play with.
 
