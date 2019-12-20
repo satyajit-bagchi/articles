@@ -2,7 +2,7 @@
 
 After seeing all these cool developments and results coming out in the  Autonomous driving space - Computer vision/Sensor fusion/Object tracking space, I wanted to play around with some of these algorithms, and hopefully recreate some of the results. But I don't have an autonomous car lying around my apartment (yet), and doing object tracking with a webcam is to be honest, kind of lame. So...I started to look around for alternatives.
 
-I wanted to share something really cool I recently found to be possible: Making your smartphone publish its sensor data as ROS nodes.
+I wanted to share something really cool I recently found to be possible: Making your smartphone publish its sensor data via ROS.
 
 After failing twice, I finally got this thing to work and to be frank, I didn't do much. I just went through a bunch of outdated information, discouraging comments, forum posts, and a couple of unsuccessful attempts. Easy.
 
