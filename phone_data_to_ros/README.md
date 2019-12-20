@@ -78,12 +78,12 @@ To view the camera message stream, use the command:
 
 ## Use cases:
 
-- Maybe you're playing around with computer vision algorithms without a working webcam or you want to have your camera moving rather than moving the objects in front of the camera, whatever floats your boat. 
+- You're playing around with computer vision algorithms without a working webcam or you want to have your camera moving rather than moving the objects in front of the camera, whatever floats your boat. 
     - Basically, If you need a camera, I'm guessing you have a pretty great one in your pocket, or lying in a drawer somewhere.
 
-- Maybe you have an object detection inference network running as a node, and you want to (because now you can) overlay your object detections on top of that.
+- You have an object detection inference network running as a node, and you want to (because now you can) overlay your object detections on top of that.
 
-- Maybe you're playing around with Visual SLAM, or Sensor fusion or ROS and you just need some sensor data to play with.
+- You're playing around with Visual SLAM, or Sensor fusion or ROS and you just need some sensor data to play with.
 
 So, yeah, that's about it. Happy hacking.
 
